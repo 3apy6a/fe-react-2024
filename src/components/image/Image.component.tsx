@@ -5,6 +5,6 @@ import styles from './image.module.css';
 // @ts-ignore
 export const ImageComponent = ({ customClasses }) => (
     <div className={customClasses}>
-        <img width={'500px'} height={'489px'} className={styles.img} src={portrait} alt="Portrait" />
+        <img className={styles.img} src={portrait} alt="Portrait" />
     </div>
 );

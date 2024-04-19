@@ -77,9 +77,23 @@ h2 {
   color: #FFF;
 }
 
+@media screen and (min-width: 390px) and (max-width: 736px) {
+
+  h2 {
+    font-size: 19px;
+  }
+}
+
 p {
   font-size: 22px;
   color: #FFF;
+}
+
+@media screen and (min-width: 390px) and (max-width: 736px) {
+
+  p {
+    font-size: 16px;
+  }
 }
 
 section {

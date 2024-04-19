@@ -2,7 +2,7 @@ import { AboutComponent } from './components/about/About.component.tsx';
 import { HeaderComponent } from './components/header/Header.component.tsx';
 import { ImageComponent } from './components/image/Image.component.tsx';
 
-import './App.css';
+import './App.module.css';
 
 function App() {
     return (
