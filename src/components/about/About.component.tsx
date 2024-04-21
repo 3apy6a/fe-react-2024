@@ -7,7 +7,7 @@ interface AboutProps {
 }
 
 export const AboutComponent: React.FC<AboutProps> = ({ customClasses }) => (
-    <div className={customClasses}>
+    <article className={customClasses}>
         <TitleComponent>About me</TitleComponent>
         <p>
             Hi! My name is Susanna and I&apos;m a Junior Frontend Developer. I am already familiar with main Web Technologies like React,
@@ -23,5 +23,5 @@ export const AboutComponent: React.FC<AboutProps> = ({ customClasses }) => (
             <a href="https://www.instagram.com/3d_kuznya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> instagram</a> and
             check out my <a href="https://github.com/3apy6a">GitHub</a>.
         </p>
-    </div>
+    </article>
 );
