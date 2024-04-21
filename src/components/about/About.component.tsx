@@ -1,6 +1,5 @@
 import { TitleComponent } from '../title/Title.component';
 
-// @ts-ignore
 export const AboutComponent = ({ customClasses }) => (
     <div className={customClasses}>
         <TitleComponent>About me</TitleComponent>
