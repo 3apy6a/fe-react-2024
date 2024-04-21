@@ -75,24 +75,28 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   color: #FFF;
+  line-height: 43px;
 }
 
 @media (max-width: 736px) {
 
   h2 {
     font-size: 19px;
+    line-height: 32px;
   }
 }
 
 p {
   font-size: 22px;
   color: #FFF;
+  line-height: 32px;
 }
 
 @media (max-width: 736px) {
 
   p {
     font-size: 16px;
+    line-height: 19px;
   }
 }
 
