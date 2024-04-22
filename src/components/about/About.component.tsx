@@ -20,8 +20,19 @@ export const AboutComponent: React.FC<AboutProps> = ({ customClasses }) => (
         </p>
         <p>
             You can contact me via
-            <a href="https://www.instagram.com/3d_kuznya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> instagram</a> and
-            check out my <a href="https://github.com/3apy6a">GitHub</a>.
+            <a
+                href="https://www.instagram.com/3d_kuznya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noreferrer"
+            >
+                {' '}
+                instagram
+            </a>{' '}
+            check out my{' '}
+            <a href="https://github.com/3apy6a" target="_blank" rel="noreferrer">
+                GitHub
+            </a>
+            .
         </p>
     </article>
 );
