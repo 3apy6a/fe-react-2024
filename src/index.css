@@ -70,6 +70,7 @@ h2 {
   font-size: 32px;
   font-weight: 700;
   line-height: 43px;
+  color: #FFF;
 }
 
 @media (max-width: 736px) {
@@ -87,12 +88,11 @@ p {
   line-height: 32px;
 }
 
-@media (max-width: 736px) {
-
-  p {
-    font-size: 16px;
-    line-height: 19px;
-  }
+p {
+  font-size: 22px;
+  color: #FFF;
+  font-weight: 700;
+  line-height: 32px;
 }
 
 section {
@@ -117,6 +117,16 @@ section {
 }
 
 @media (max-width: 736px) {
+
+  h2 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 19px;
+  }
 
   .wrapper {
     flex-direction: column-reverse;
