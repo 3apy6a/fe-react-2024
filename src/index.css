@@ -8,7 +8,7 @@
 
 a {
   font-weight: 500;
-  color: #646CFF;
+  color: inherit;
   text-decoration: underline;
 }
 
@@ -79,13 +79,6 @@ h2 {
     font-size: 19px;
     line-height: 32px;
   }
-}
-
-p {
-  font-size: 22px;
-  color: #FFF;
-  font-weight: 700;
-  line-height: 32px;
 }
 
 p {
