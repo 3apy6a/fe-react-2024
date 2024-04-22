@@ -1,10 +1,5 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, .87);
-  background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,8 +8,8 @@
 
 a {
   font-weight: 500;
-  color: #646CFF;
-  text-decoration: inherit;
+  color: inherit;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -26,6 +21,7 @@ body {
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: #242424;
 }
 
 h1 {
@@ -67,5 +63,77 @@ button:focus-visible {
 
   button {
     background-color: #F9F9F9;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  color: #FFF;
+}
+
+@media (max-width: 736px) {
+
+  h2 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+}
+
+p {
+  font-size: 22px;
+  color: #FFF;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+section {
+  padding: 40px;
+}
+
+.offset-right-xs {
+  margin-right: 80px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.w-6 {
+  width: 50%;
+}
+
+.padding-120 {
+  padding-top: 120px;
+}
+
+@media (max-width: 736px) {
+
+  h2 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .offset-mobile-none {
+    margin: 0;
+  }
+
+  .padding-mobile-none {
+    padding-top: 0;
+  }
+
+  .w-12 {
+    width: 100%;
   }
 }
