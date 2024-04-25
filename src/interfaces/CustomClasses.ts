@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/naming-convention
-export interface customClasses {
+export interface CustomClasses {
     customClasses: string;
 }

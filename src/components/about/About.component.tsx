@@ -1,10 +1,10 @@
 import React from 'react';
 
-import type { customClasses } from '@/interfaces/CustomClasses.ts';
+import type { CustomClasses } from '@/interfaces/CustomClasses.ts';
 
 import { TitleComponent } from '../title/Title.component';
 
-export const AboutComponent: React.FC<customClasses> = ({ customClasses }) => (
+export const AboutComponent: React.FC<CustomClasses> = ({ customClasses }) => (
     <article className={customClasses}>
         <TitleComponent>About me</TitleComponent>
         <p>
