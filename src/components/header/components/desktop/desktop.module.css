@@ -74,7 +74,10 @@
   text-align: center;
   display: flex;
   align-items: center;
+  border: none;
 }
+
+button:focus, button:focus-visible { outline: 0 !important;}
 
 .theme li:first-child {
   margin-left: 36px;

@@ -27,7 +27,7 @@ export const DesktopComponent = () => {
     return (
         <header className={styles.header}>
             <div className={wrapperClasses}>
-                <LogoComponent customClasses={styles.logo} />
+                <LogoComponent />
                 <ul className={styles.theme}>
                     <li>
                         <button className={styles.theme}>

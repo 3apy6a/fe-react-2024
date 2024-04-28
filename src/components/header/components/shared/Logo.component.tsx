@@ -1,6 +1,4 @@
-import type { CustomClasses } from '@/interfaces/CustomClasses.ts';
-
-export const LogoComponent = ({ customClasses }: CustomClasses) => (
+export const LogoComponent = () => (
     <h1>
         <a href={'/'}>
             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
