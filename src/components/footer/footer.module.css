@@ -1,0 +1,41 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: #242424;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 24px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.text_red {
+  color: #EF4934;
+}
+
+.divider {
+  height: 1px;
+  background: #333;
+  margin: 0 40px 40px;
+}
+
+@media (max-width: 736px) {
+
+  .text_wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
