@@ -9,33 +9,38 @@
 .menu {
   list-style: none;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 0;
+  margin-bottom: 15px;
+  gap: 30px;
 }
 
-.menu li {
-  margin-right: 24px;
-}
-
-.menu li:last-child {
-  margin-right: 0;
-}
-
-.text_red {
+.footerLink {
   color: #EF4934;
 }
 
+.footerLink:hover {
+  color: #D43824;
+}
+
 .divider {
-  height: 1px;
+  margin: 0 13px 40px;
+  border-width: 1px;
+  border-style: solid;
   background: #333;
-  margin: 0 40px 40px;
+}
+
+.footerText {
+  text-align: center;
 }
 
 @media (max-width: 736px) {
 
-  .text_wrapper {
-    margin-left: 40px;
-    margin-right: 40px;
+  .footer {
+    padding: 0 30px;
+  }
+
+  .divider {
+    width: 100%;
+    margin: 0 0 30px;
   }
 }
