@@ -1,6 +1,6 @@
 export const LogoComponent = () => (
     <h1>
-        <a href={'/'}>
+        <a href="/">
             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     fillRule="evenodd"

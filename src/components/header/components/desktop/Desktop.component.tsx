@@ -19,11 +19,6 @@ export const DesktopComponent = () => {
         [styles.text_decoration]: true,
         [styles.color_white]: true,
     });
-
-    // const themeClasses = classNames({
-    //     [styles.text_decoration]: true,
-    //     [styles.color_white]: true,
-    // });
     return (
         <header className={styles.header}>
             <div className={wrapperClasses}>
@@ -47,12 +42,12 @@ export const DesktopComponent = () => {
             <div className={wrapperClasses}>
                 <ul className={styles.list}>
                     <li>
-                        <a className={linkClasses} href={'/about'}>
+                        <a className={linkClasses} href="/about">
                             About
                         </a>
                     </li>
                     <li>
-                        <a className={linkClasses} href={'/products'}>
+                        <a className={linkClasses} href="/products">
                             Products
                         </a>
                     </li>
@@ -60,13 +55,13 @@ export const DesktopComponent = () => {
                         <CartComponent />
                     </li>
                     <li className={styles.offset_md}>
-                        <a className={styles.login} href={'/login'}>
+                        <a className={styles.login} href="/login">
                             <LoginIconComponent customClasses={styles.offset_sm} />
                             Login
                         </a>
                     </li>
                     <li>
-                        <a className={styles.sign_up} href={'/sign-up'}>
+                        <a className={styles.sign_up} href="/sign-up">
                             <SignUpIconComponent customClasses={styles.offset_sm} />
                             Sign up
                         </a>

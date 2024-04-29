@@ -11,7 +11,7 @@ export const MobileComponent = () => (
                 <CartComponent />
             </li>
             <li>
-                <a href={'#'}>
+                <a href="/">
                     <svg width="24" height="10" viewBox="0 0 24 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M0.75 8.75H23.25M0.75 1.25H23.25"
