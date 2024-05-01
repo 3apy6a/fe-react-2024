@@ -1,0 +1,46 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: #242424;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 30px;
+}
+
+.footerLink {
+  color: #EF4934;
+}
+
+.footerLink:hover {
+  color: #D43824;
+}
+
+.divider {
+  margin: 0 13px 40px;
+  border-width: 1px;
+  border-style: solid;
+  background: #333;
+}
+
+.footerText {
+  text-align: center;
+}
+
+@media (max-width: 736px) {
+
+  .footer {
+    padding: 0 30px;
+  }
+
+  .divider {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+}
