@@ -47,6 +47,7 @@
 
 .cardButton {
   background: transparent;
+  border: none;
 }
 
 .cardImg {
