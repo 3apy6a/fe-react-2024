@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 
 import { FooterComponent } from '@/components/footer/Footer.component.tsx';
 import { ProductsListComponent } from '@/components/product/ProductsList.component.tsx';
@@ -10,7 +10,7 @@ import { ImageComponent } from './components/image/Image.component.tsx';
 import './App.module.css';
 
 function App() {
-    const [selectedNawBarItem, setSelectedNawBarItem] = React.useState('Products');
+    const [selectedNawBarItem, setSelectedNawBarItem] = useState('Products');
     return (
         <>
             <main className="home">
