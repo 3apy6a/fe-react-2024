@@ -13,10 +13,10 @@ function App() {
     const [selectedNawBarItem, setSelectedNawBarItem] = useState('Products');
     return (
         <>
-            <main className="home">
+            <main className="contentWrapper">
                 <HeaderComponent setSelectedNawBarItem={setSelectedNawBarItem} />
                 <section>
-                    <div className={'contentWrapper %{wrapper}'}>
+                    <div className="wrapper">
                         {selectedNawBarItem === 'About' ? (
                             <>
                                 <AboutComponent customClasses="w-6 w-12 offset-right-xs offset-mobile-none" />
