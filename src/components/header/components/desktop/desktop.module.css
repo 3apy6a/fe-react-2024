@@ -3,6 +3,7 @@
   padding: 8px 24px;
   align-items: center;
   justify-content: space-between;
+  background: #242424;
 }
 
 .flex {
@@ -68,9 +69,12 @@
   border: none;
 }
 
+.activeMode {
+  color: #FFF;
+}
+
 .theme {
   background: transparent;
-  color: #FFF;
   padding: 10px 5px;
   text-decoration: none;
   text-align: center;
@@ -83,4 +87,8 @@ button:focus, button:focus-visible { outline: 0 !important;}
 
 .theme li:first-child {
   margin-left: 36px;
+}
+
+.activeMode path {
+  stroke: #FFF;
 }

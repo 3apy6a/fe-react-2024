@@ -1,4 +1,4 @@
-import buyIcon from '@/assets/buy.svg';
+import { CartIconComponent } from '@/components/product/CartIcon.component.tsx';
 import type { Product } from '@/interfaces/Product.ts';
 
 import styles from './product.module.css';
@@ -15,7 +15,7 @@ export const ProductCardComponent = ({ product }: { product: Product }) => (
                 <span className={styles.cardPricePrefix}>&#8372;</span>
             </p>
             <button className={styles.cardButton}>
-                <img src={buyIcon} alt={'buyIcon'}></img>
+                <CartIconComponent />
             </button>
         </div>
     </div>

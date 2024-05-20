@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #FFF;
+  color: var(--text-color);
   bottom: 0;
 }
 
@@ -48,6 +48,10 @@
 .cardButton {
   background: transparent;
   border: none;
+}
+
+.cardButton path {
+  stroke: var(--cart-icon-color);
 }
 
 .cardImg {
