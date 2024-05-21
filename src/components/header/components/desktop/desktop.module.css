@@ -64,6 +64,8 @@
 
 .text_decoration {
   text-decoration: none;
+  background: transparent;
+  border: none;
 }
 
 .theme {

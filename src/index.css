@@ -109,6 +109,11 @@ section {
   padding-top: 120px;
 }
 
+.contentWrapper {
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
 @media (max-width: 736px) {
 
   h2 {
