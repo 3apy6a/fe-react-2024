@@ -1,0 +1,171 @@
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #FFF;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.searchInput {
+  padding: 0 0 0 22px;
+  font-size: 16px;
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  background-color: #FFF;
+}
+
+.searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #EF4934;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.searchButton svg {
+  width: 18px;
+  height: 18px;
+  stroke: #FFF;
+}
+
+.searchButton:hover {
+  background-color: #D93B2D;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+}
+
+.categoryBtn {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #E1E1E1;
+  border-radius: 50px;
+  background-color: #FFF;
+  cursor: pointer;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.categoryBtn:hover {
+  background-color: #F0F0F0;
+}
+
+.categoryBtn.active {
+  background-color: #EF4934;
+  color: #FFF;
+  border-color: #EF4934;
+}
+
+.sortWrapper {
+  display: grid;
+  grid-template-columns: 1fr 196px;
+  align-items: center;
+}
+
+.sortContainer {
+  position: relative;
+  height: 40px;
+}
+
+.sortLabel {
+  font-size: 16px;
+  color: #333;
+  margin-right: 8px;
+}
+
+.sortInput {
+  color: #656565;
+  font-weight: 600;
+  font-size: 14px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: #D93B2D;
+    color: #FFF;
+    border-radius: 20px;
+
+    svg path {
+      stroke: #FFF;
+    }
+  }
+}
+
+.arrow, .openArrow {
+  width: 14px;
+  height: 14px;
+  transform: rotate(270deg);
+}
+
+.openArrow {
+  transform: rotate(90deg);
+}
+
+.sortContainerWrapper {
+  border: 1px solid #E1E1E1;
+  border-radius: 50px;
+}
+
+.sortDropdown {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #E1E1E1;
+  background-color: #FFF;
+  border-radius: 20px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    color: #656565;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 15px;
+    justify-content: space-between;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 38px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background-color: #D93B2D;
+      color: #FFF;
+
+      svg path {
+        stroke: #FFF;
+      }
+    }
+  }
+}
